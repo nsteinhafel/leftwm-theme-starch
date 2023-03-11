@@ -25,7 +25,7 @@ fi
 
 # Dunst for notifications.
 if [ -x "$(command -v dunst)" ]; then
-  dunst -config ~/.config/dunst/dunstrc &
+  dunst -config $SCRIPTPATH/dunstrc &
 fi
 
 # Boot polybar.
