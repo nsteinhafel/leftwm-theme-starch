@@ -1,0 +1,5 @@
+polybar
+feh
+picom
+dunst
+ttf-fira-code
